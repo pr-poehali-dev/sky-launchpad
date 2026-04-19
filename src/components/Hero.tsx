@@ -22,7 +22,7 @@ export function Hero() {
           Профессиональная перевозка животных по всей стране — с заботой и комфортом
         </p>
 
-        <a className="contents max-sm:hidden" href="#contact">
+        <a className="contents max-sm:hidden" href="https://t.me/perevozkapetts" target="_blank" rel="noopener noreferrer">
           <Button
             className="mt-14"
             onMouseEnter={() => setHovering(true)}
@@ -31,7 +31,7 @@ export function Hero() {
             [Заказать перевозку]
           </Button>
         </a>
-        <a className="contents sm:hidden" href="#contact">
+        <a className="contents sm:hidden" href="https://t.me/perevozkapetts" target="_blank" rel="noopener noreferrer">
           <Button
             size="sm"
             className="mt-14"
