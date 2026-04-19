@@ -11,7 +11,7 @@ export const Header = () => {
         <nav className="flex max-lg:hidden absolute left-1/2 -translate-x-1/2 items-center justify-center gap-x-10">
           {[
             { label: "Как это работает", href: "#how" },
-            { label: "Контакты", href: "#contact" },
+            { label: "Контакты", href: "/contacts" },
           ].map((item) => (
             <a
               className="uppercase inline-block font-mono text-foreground/60 hover:text-foreground/100 duration-150 transition-colors ease-out"
