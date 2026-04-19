@@ -13,31 +13,17 @@ export const Logo = (props: React.SVGProps<SVGSVGElement>) => {
       <ellipse cx="21.5" cy="20" rx="9" ry="11" fill="white" />
       <ellipse cx="21.5" cy="20" rx="5.5" ry="7" fill="#0a0a0a" />
 
-      {/* PETS */}
+      {/* PETS DELIVERY */}
       <text
         x="46"
         y="28"
         fontFamily="Arial, sans-serif"
-        fontWeight="700"
         fontSize="18"
         letterSpacing="2"
         fill="white"
       >
-        PETS
-      </text>
-
-      {/* DELIVERY */}
-      <text
-        x="100"
-        y="28"
-        fontFamily="Arial, sans-serif"
-        fontWeight="300"
-        fontSize="18"
-        letterSpacing="2"
-        fill="white"
-        opacity="0.6"
-      >
-        DELIVERY
+        <tspan fontWeight="700">PETS</tspan>
+        <tspan fontWeight="300" opacity="0.6"> DELIVERY</tspan>
       </text>
     </svg>
   );
