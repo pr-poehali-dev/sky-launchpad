@@ -12,27 +12,50 @@ export default function Contacts() {
           alt="background"
           style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center" }}
         />
-        <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0.65) 100%)" }} />
+        <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.75) 100%)" }} />
       </div>
 
       <div className="relative z-10 flex flex-col min-h-svh">
         <Header />
 
         <div className="flex flex-col items-center justify-center flex-1 text-center px-4">
-          <h1 className="text-5xl sm:text-6xl md:text-7xl font-sentient text-white mb-8">
-            Наши контакты
+          {/* Декоративная линия сверху */}
+          <div className="w-16 h-[2px] bg-[#EBB800] mb-10" />
+
+          <h1 className="text-5xl sm:text-6xl md:text-7xl font-sentient text-white mb-12 tracking-tight">
+            Контакты компании
           </h1>
-          <p className="font-mono text-lg sm:text-xl text-foreground/70 mb-4">
-            Отписать в телеграмм
+
+          {/* Кнопки */}
+          <div className="flex flex-col gap-5 w-full max-w-xs">
+            <a
+              href="https://t.me/petsperevozka"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full py-4 px-8 bg-[#EBB800] text-black border-2 border-black font-mono uppercase text-sm tracking-widest font-bold transition-all duration-200 hover:bg-[#EBB800]/80 hover:scale-[1.02]"
+              style={{ clipPath: "polygon(12px 0, calc(100% - 12px) 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%, 0 calc(100% - 12px), 0 12px)" }}
+            >
+              Мы в телеграмме
+            </a>
+
+            <a
+              href="https://t.me/perevozkapetts"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full py-4 px-8 bg-[#EBB800] text-black border-2 border-black font-mono uppercase text-sm tracking-widest font-bold transition-all duration-200 hover:bg-[#EBB800]/80 hover:scale-[1.02]"
+              style={{ clipPath: "polygon(12px 0, calc(100% - 12px) 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%, 0 calc(100% - 12px), 0 12px)" }}
+            >
+              Наши отзывы
+            </a>
+          </div>
+
+          {/* Подпись */}
+          <p className="font-mono text-sm text-white/50 mt-10 tracking-wide">
+            Уточняйте подробности у менеджера в Telegram
           </p>
-          <a
-            href="https://t.me/petsperevozka"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-mono text-primary text-lg sm:text-xl hover:text-primary/80 transition-colors duration-150"
-          >
-            https://t.me/petsperevozka
-          </a>
+
+          {/* Декоративная линия снизу */}
+          <div className="w-16 h-[2px] bg-[#EBB800] mt-10" />
         </div>
       </div>
     </div>
