@@ -19,7 +19,7 @@ export function Hero() {
           <i className="font-light">в надёжных</i> руках
         </h1>
         <p className="font-mono text-sm sm:text-base text-foreground/60 text-balance mt-8 max-w-[440px] mx-auto">
-          Профессиональная перевозка животных по всей стране — с заботой и комфортом
+          Профессиональная перевозка животных по странам Европы — с заботой и комфортом
         </p>
 
         <a className="contents max-sm:hidden" href="https://t.me/perevozkapetts" target="_blank" rel="noopener noreferrer">
