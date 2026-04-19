@@ -46,7 +46,7 @@ export const Pill = ({ children, className }: PillProps) => {
         className="absolute w-[var(--h)] bottom-[var(--hh)] right-[var(--hh)] h-[2px] bg-border -rotate-45 translate-x-1/2"
       />
 
-      <span className="inline-block size-2.5 rounded-full bg-primary mr-2 shadow-glow shadow-primary/50" />
+      <span className="inline-block size-2.5 rounded-full bg-white mr-2 shadow-glow shadow-white/50" />
 
       {children}
     </div>

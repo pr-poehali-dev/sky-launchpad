@@ -22,7 +22,7 @@ export const Header = () => {
           ))}
         </nav>
         <a
-          className="uppercase max-lg:hidden transition-colors ease-out duration-150 font-mono text-primary hover:text-primary/80"
+          className="uppercase max-lg:hidden transition-colors ease-out duration-150 font-mono text-white hover:text-white/70"
           href="https://t.me/perevozkapetts"
           target="_blank"
           rel="noopener noreferrer"
