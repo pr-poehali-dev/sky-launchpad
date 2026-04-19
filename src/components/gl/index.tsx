@@ -1,4 +1,4 @@
-const BG_IMAGE = "https://cdn.poehali.dev/projects/eae76cf4-4efe-4f5a-9702-5f9d6d5f8d0f/files/aac30b32-4c65-4039-a223-f698d3eaf6ae.jpg";
+const BG_IMAGE = "https://cdn.poehali.dev/projects/eae76cf4-4efe-4f5a-9702-5f9d6d5f8d0f/files/9e727769-0975-48ab-97ba-e40117e37bf6.jpg";
 
 export const GL = ({ hovering: _ }: { hovering: boolean }) => {
   return (
