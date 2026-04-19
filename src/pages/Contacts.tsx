@@ -1,6 +1,6 @@
 import { Header } from "@/components/Header";
 
-const BG_IMAGE = "https://cdn.poehali.dev/projects/eae76cf4-4efe-4f5a-9702-5f9d6d5f8d0f/files/9e727769-0975-48ab-97ba-e40117e37bf6.jpg";
+const BG_IMAGE = "https://cdn.poehali.dev/projects/eae76cf4-4efe-4f5a-9702-5f9d6d5f8d0f/files/7c8009c4-384e-4138-a45f-fb9653a2f160.jpg";
 
 export default function Contacts() {
   return (
@@ -20,7 +20,7 @@ export default function Contacts() {
 
         <div className="flex flex-col items-center justify-center flex-1 text-center px-4">
           {/* Декоративная линия сверху */}
-          <div className="w-16 h-[2px] bg-[#EBB800] mb-10" />
+          <div className="w-16 h-[2px] bg-white/60 mb-10" />
 
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-sentient text-white mb-12 tracking-tight">
             Контакты компании
@@ -32,7 +32,7 @@ export default function Contacts() {
               href="https://t.me/petsperevozka"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full py-4 px-8 bg-[#EBB800] text-black border-2 border-black font-mono uppercase text-sm tracking-widest font-bold transition-all duration-200 hover:bg-[#EBB800]/80 hover:scale-[1.02]"
+              className="w-full py-4 px-8 bg-transparent text-white border-2 border-white font-mono uppercase text-sm tracking-widest font-bold transition-all duration-200 hover:bg-white/10 hover:scale-[1.02]"
               style={{ clipPath: "polygon(12px 0, calc(100% - 12px) 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%, 0 calc(100% - 12px), 0 12px)" }}
             >
               Мы в телеграмме
@@ -42,7 +42,7 @@ export default function Contacts() {
               href="https://t.me/perevozkapetts"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full py-4 px-8 bg-[#EBB800] text-black border-2 border-black font-mono uppercase text-sm tracking-widest font-bold transition-all duration-200 hover:bg-[#EBB800]/80 hover:scale-[1.02]"
+              className="w-full py-4 px-8 bg-transparent text-white border-2 border-white font-mono uppercase text-sm tracking-widest font-bold transition-all duration-200 hover:bg-white/10 hover:scale-[1.02]"
               style={{ clipPath: "polygon(12px 0, calc(100% - 12px) 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%, 0 calc(100% - 12px), 0 12px)" }}
             >
               Наши отзывы
@@ -55,7 +55,7 @@ export default function Contacts() {
           </p>
 
           {/* Декоративная линия снизу */}
-          <div className="w-16 h-[2px] bg-[#EBB800] mt-10" />
+          <div className="w-16 h-[2px] bg-white/60 mt-10" />
         </div>
       </div>
     </div>
